@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
                 <Link
                   to="/seller-dashboard"
                   className={`font-medium transition-colors ${
-                    isActive('/seller-dashboard') ? 'text-blue-600' : 'text-blue-700 hover:text-blue-600'
+                    isActive('/seller-dashboard') ? 'text-black-600' : 'text-black-700 hover:text-blue-600'
                   }`}
                 >
                   Dashboard
@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
                 <Link
                   to="/voice-listing"
                   className={`flex items-center space-x-1 font-medium transition-colors ${
-                    isActive('/voice-listing') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
+                    isActive('/voice-listing') ? 'text-black-600' : 'text-black-700 hover:text-blue-600'
                   }`}
                 >
                   <Mic className="h-4 w-4" />
@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
             <Link
               to="/complaints"
               className={`font-medium transition-colors ${
-                isActive('/complaints') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'
+                isActive('/complaints') ? 'text-black-600' : 'text-black-700 hover:text-blue-600'
               }`}
             >
               Support
@@ -66,7 +66,7 @@ const Navbar: React.FC = () => {
                 {user.role === 'buyer' && (
                   <Link
                     to="/cart"
-                    className="relative p-2 text-gray-700 hover:text-blue-600 transition-colors"
+                    className="relative p-2 text-black-700 hover:text-blue-600 transition-colors"
                   >
                     <ShoppingCart className="h-6 w-6" />
                     {itemCount > 0 && (
@@ -78,11 +78,11 @@ const Navbar: React.FC = () => {
                 )}
                 <div className="flex items-center space-x-2">
                   <User className="h-6 w-6 text-gray-700" />
-                  <span className="text-blue-700">{user.name}</span>
+                  <span className="text-black-700">{user.name}</span>
                 </div>
                 <button
                   onClick={logout}
-                  className="flex items-center space-x-1 text-gray-700 hover:text-red-600 transition-colors"
+                  className="flex items-center space-x-1 text-black-700 hover:text-red-600 transition-colors"
                 >
                   <LogOut className="h-4 w-4" />
                   <span>Logout</span>
@@ -92,7 +92,7 @@ const Navbar: React.FC = () => {
               <div className="flex items-center space-x-4">
                 <Link
                   to="/signin"
-                  className="text-gray-700 hover:text-blue-600 transition-colors"
+                  className="text-black-700 hover:text-blue-600 transition-colors"
                 >
                   Sign In
                 </Link>
