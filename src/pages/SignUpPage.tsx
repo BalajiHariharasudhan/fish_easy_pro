@@ -56,7 +56,7 @@ const SignUpPage: React.FC = () => {
         <div className="text-center">
           <Fish className="mx-auto h-12 w-12 text-blue-600" />
           <h2 className="mt-6 text-3xl font-extrabold text-gray-900">
-            Join FishEasy Pro
+            Join FishEasy 
           </h2>
           <p className="mt-2 text-sm text-gray-600">
             Create your account and start selling or buying fresh fish
