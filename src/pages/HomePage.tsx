@@ -147,7 +147,7 @@ const HomePage: React.FC = () => {
                 ))}
               </div>
               <p className="text-gray-700 mb-4">
-                "FishEasy Pro changed my life! I can now sell my fish to customers across the city just by speaking. No more struggling with typing."
+                "FishEasy  changed my life! I can now sell my fish to customers across the city just by speaking. No more struggling with typing."
               </p>
               <div className="font-semibold text-gray-900">- Kumar, Fisherman</div>
             </div>
