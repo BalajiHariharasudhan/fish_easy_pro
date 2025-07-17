@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
                 <Link
                   to="/seller-dashboard"
                   className={`font-medium transition-colors ${
-                    isActive('/seller-dashboard') ? 'text-skyblue-600' : 'text-skyblue-700 hover:text-blue-600'
+                    isActive('/seller-dashboard') ? 'text-blue-600' : 'text-blue-700 hover:text-blue-600'
                   }`}
                 >
                   Dashboard
