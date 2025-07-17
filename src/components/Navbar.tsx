@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
             <Link
               to="/marketplace"
               className={`font-medium transition-colors ${
-                isActive('/marketplace') ? 'text-black-600' : 'text-black-700 hover:text-blue-600'
+                isActive('/marketplace') ? 'text-black-600' : 'text-black-700 hover:text-white-600'
               }`}
             >
               Marketplace
