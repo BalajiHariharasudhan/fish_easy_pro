@@ -174,7 +174,7 @@ const HomePage: React.FC = () => {
             Ready to Get Started?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Join thousands of fishermen and customers who trust FishEasy Pro
+            Join thousands of fishermen and customers who trust FishEasy 
           </p>
           {!user && (
             <Link
