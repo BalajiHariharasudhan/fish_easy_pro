@@ -279,7 +279,7 @@
 }
 
 /* Dark Mode Support */
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: lightblue) {
   .glass-card {
     background: rgba(17, 24, 39, 0.9);
     border: 1px solid rgba(75, 85, 99, 0.2);
