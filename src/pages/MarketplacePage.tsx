@@ -493,7 +493,7 @@ const MarketplacePage: React.FC = () => {
 
         {/* Info Section */}
         <div className="mt-12 bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">🌟 Why Choose FishEasy Pro?</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">🌟 Why Choose FishEasy ?</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="text-center">
               <div className="text-4xl mb-3">🎣</div>
