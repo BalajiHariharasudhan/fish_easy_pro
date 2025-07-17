@@ -73,7 +73,7 @@ const MarketplacePage: React.FC = () => {
         quantity: 1,
         unit: 'kg',
         price: 350,
-        image: 'https://images.pexels.com/photos/128373/pexels-photo-128373.jpeg?auto=compress&cs=tinysrgb&w=600',
+        image: "https://biologydictionary.net/wp-content/uploads/2021/01/shutterstock_117425023-1-scaled.jpg",
         description: 'Silver pomfret fish, perfect for frying and curry preparations',
         sellerId: 'seller2',
         sellerName: 'Ravi Fisherman',
