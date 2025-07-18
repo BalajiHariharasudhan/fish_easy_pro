@@ -94,7 +94,43 @@ FishEasy is a full-stack, voice-enabled, multi-role e-commerce web application d
 
 (Each fish is auto-mapped to a realistic image.)
 
+
+
 ---
 
-## 📁 Project Structure
+## 🔌 How It Works
+
+1. Sellers log in and use **voice commands** to add products.
+2. The app extracts quantity, fish name, and price.
+3. Fish is stored in the database and image is auto-mapped.
+4. Buyers browse and purchase listed fish.
+5. Payments are supported via UPI (Razorpay) and COD.
+6. Complaints can be submitted, tracked, and resolved.
+7. Admins manage everything via a separate dashboard.
+
+---
+
+## 🧪 Local Setup
+
+### Prerequisites
+- Node.js
+- MongoDB (local or Atlas)
+- npm
+
+### Steps
+
+```bash
+# Clone repository
+git clone https://github.com/YOUR_USERNAME/fisheasy.git
+cd fisheasy
+
+# Backend setup
+cd server
+npm install
+npm start
+
+# Frontend setup
+cd ../client
+npm install
+npm start
 
